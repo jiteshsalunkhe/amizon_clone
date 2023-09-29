@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    background-color: #1f1f1f;
+    color: white;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.logo img{
+    height: 4.2rem;
+    width: 7.5rem;
+    margin-top: 5px;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+}
+.address i{
+    margin-top: 11px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+#text1{
+    font-size: 10px;
+    font-weight: 100;
+}
+#text2{
+    font-size: 0.85;
+    font-weight: 700;
+}
+
+.nav-search{
+    display: flex;
+    width: 870px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.search-select{
+    background-color: #cfcfcf;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}.search-input{
+    width:100%;
+    border: none;
+    font-size: 1rem;
+}
+.search-icon{
+    background-color: rgba(255, 166, 0, 0.929);
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.search-icon i{
+    padding-top: 0.8rem;
+    padding-left: 10px;
+}
+
+.language i{
+    font-size: 22px;
+    margin-top: 10px;
+}
+#language-text{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 0.90;
+    font-weight: 600;
+}
+.border :hover{
+    border: 3px solid orange;
+}
+
+/* account an list */
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+     font-size: 0.85rem;
+     font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* second nav */
+
+.second-nav{
+    background-color: #42424c;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+.pannel-all{
+    width: 3%;
+    margin-left: 25px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.pannel-ops{
+    font-size: 0.85rem;
+    width: 100%;
+    font-weight: 400;
+    display: flex;
+}
+.pannel-ops p{
+    margin-left: 15px;
+}
+.ops-second{
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: 15%;
+}
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-message{
+    color: #007185;
+    font-size: 0.85;
+}
+
+/* shop section */
+
+.shop-section{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;padding-top: 20px;
+}
+#box{
+    background-color: rgb(255, 254, 254);
+    height: 400px;
+    width: 23%;
+    margin-bottom: 20px;
+    }
+.box-img img{
+    height: 280px;
+    width: 320px;
+    margin: 10px 13px;
+    margin-bottom: 20px;
+}
+#box h2{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 0.7rem;
+}
+#box a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 0.7rem;
+}
+
+/* footer */
+.footer{
+    margin-top:15px;
+}
+.foot-pannel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-pannel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+p{
+    font-weight: 900;
+}
+ul a{
+    display: block;
+    font-size: 0.80;
+    margin-top:10px;
+    color: white;
+    text-decoration: none;
+}
+.foot-pannel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+    width: 150px;
+}
+.footpannel4{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages{
+    padding-top:25px;
+}
+.pages a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 8px;
+}
+.copyright{
+    padding-top: 5px;
+    margin-top: 10px;
+}
